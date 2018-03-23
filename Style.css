@@ -1,0 +1,253 @@
+head {
+	padding:50px;
+}
+body {
+    background-color: #972C36;
+    color: #972C36;
+    font-family: sans-serif;
+	font-size: 30px;
+    margin: 100px;
+}
+body.a {
+    background-color: #ffffff;
+    color: #972C36;
+    font-family: sans-serif;
+	font-size: 30px;
+    margin: 100px;
+}
+body.emenu {
+    background-color: #ffffff;
+    color: #ffffff;
+    font-family: sans-serif;
+	font-size: 30px;
+    margin: 100px;
+}
+h1 {
+    background-color: #ffffff;
+    color: #972C36;
+    font-family: sans-serif;
+	font-size: 50px;
+    margin: 0px;
+}
+h2 {
+    background-color: #972C36;
+    color: #ffffff;
+    font-family: sans-serif;
+	font-size: 50px;
+    margin: 0px;
+}
+table.a {
+    border: 3px solid #972C36;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px auto 10px;
+    width: 80%;
+}
+table.b {
+    border-radius: 15px;
+	border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 20px 260px 10px;
+    width: 80%;
+}
+table.d {
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 20px;
+}
+th {
+    text-align: center;
+    padding: 8px;
+    color:white ;
+	border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+td {
+    text-align: center;
+    padding: 8px;
+    color:white ;
+}
+td.a {
+    height: 1.5em;
+    padding-left: 15px;
+    color: #333333;
+    border: 1px solid #972C36;
+    border-radius: 4px;
+}
+td.b {
+    height: 1.5em;
+    padding-left: 20px;
+	border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+td.number {
+    text-align: right;
+    padding-right: 15px;
+}
+form {
+    text-align: center;
+}
+div.menu {
+    text-align: center;
+    background-color: #972C36;
+    padding: 9px 0px;
+	color: white;
+}
+div.menu a {
+	text-align: center;
+    padding: 9px 10px;
+    color: white;
+    background-color: #972C36;
+    text-decoration: none;
+}
+div.sign a {
+	font-size: 30px;
+	position: absolute;
+    top: 8px;
+    right: 30px;
+    font-size: 18px;
+	padding: 9px 10px;
+    color: white;
+    background-color: #972C36;
+    text-decoration: none;
+}
+div.index a {
+	font-size: 30px;
+	position: absolute;
+    bottom: 0;
+    right: 30px;
+    font-size: 18px;
+	padding: 9px 10px;
+    color: white;
+    background-color: #972C36;
+    text-decoration: none;
+}
+div.log a {
+	font-size: 30px;
+	position: absolute;
+    top: 50px;
+    right: 30px;
+    font-size: 18px;
+	padding: 9px 10px;
+    color: white;
+    background-color: #972C36;
+    text-decoration: none;
+}
+div.vouchers {
+	font-size: 25px;
+	text-align: center;
+    padding: 9px 10px;
+    color: white;
+    background-color: #972C36;
+    text-decoration: none;
+}
+input[type="submit"], input[type="button"] {
+	font-size: 20px;
+	background-color: #ffffff;
+    border: none;
+    color: #972C36;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-weight: bold
+}
+input[type="radio"] {
+	background-color: #ffffff;
+    border: none;
+    color: #972C36;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type="text"], input[type=password] {
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+	width: 200px;
+	height: 50px;
+	font-size: 20;
+}
+select {
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+	width: 200px;
+	height: 50px;
+	font-size: 20;
+}
+div.menu a:hover {
+    background-color: black;
+}
+div.sign a:hover {
+    background-color: black;
+}
+div.log a:hover {
+    background-color: black;
+}
+div.image {
+    background-image: url('a3688d75-e9b4-416b-ae07-89f7811a4647.jpg');
+     min-height: 80%;
+    background-position: center;
+    background-size: cover;
+}
+div.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 168;
+    left: 100;
+    background-color: #631d24;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+div.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+}
+div.sidenav a:hover {
+    color: grey;
+}
+
+div.main {	
+	text-align: center;
+	font-size:30;
+	color:white;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+* {
+    box-sizing: border-box;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.container {
+    border-radius: 5px;
+    background-color: #972C36;
+    padding: 20px;
+}
+img.index {
+	position: absolute;
+    top: 8px;
+    left: 30px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+tr:hover{
+	background-color: #63231d;
+}
