@@ -30,9 +30,9 @@ public class Orders extends HttpServlet {
 		toClient.println("<img class='index' src='unav.jpg' style='width:200px;height:100px;border:0'></a>");
 		toClient.println("<p align='center'>");
 		toClient.println("<div class='menu'><h1>TECNUNCAFE</h1></div></p>");
-	    toClient.println("<div class='formulario'><FORM ethod='GET' action='NuevoUsuario'>");
+	        toClient.println("<div class='formulario'><FORM ethod='GET' action='NuevoUsuario'>");
 		toClient.println("<P><INPUT type='text' placeholder='E-mail' name='email'></P>"):
-	    toClient.println("<P><INPUT type='text' placeholder='Phone number' name='phonenumber'></P>");
+	    	toClient.println("<P><INPUT type='text' placeholder='Phone number' name='phonenumber'></P>");
 		toClient.println("<P><INPUT type='text' placeholder='Date' name='date'></P>");
 		toClient.println("<P><INPUT type='text' placeholder='Hour' name='hour'></P>");				
 		toClient.println("<p align='center'>");
