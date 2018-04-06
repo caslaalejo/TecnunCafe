@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<servlet>
+  <servlet-name>UniCafeServlet</servlet-name>
+  <servlet-class>UniCafeServlet</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Pedido</servlet-name>
+  <servlet-class>Pedido</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>PlatoServlet</servlet-name>
+  <servlet-class>PlatoServlet</servlet-class>
+</servlet>
+
+<servlet>
+
+  <servlet-name>Plato</servlet-name>
+  <servlet-class>Plato</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Pago</servlet-name>
+  <servlet-class>Pago</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>BonoServlet</servlet-name>
+  <servlet-class>BonoServlet</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>fin</servlet-name>
+  <servlet-class>fin</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>SignUp</servlet-name>
+  <servlet-class>SignUp</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>LogIn</servlet-name>
+  <servlet-class>LogIn</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>CheckLogin</servlet-name>
+  <servlet-class>CheckLogin</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>CheckLoginData</servlet-name>
+  <servlet-class>CheckLoginData</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>NewUser</servlet-name>
+  <servlet-class>NewUser</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>NewUserData</servlet-name>
+  <servlet-class>NewUserData</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>NewUserData</servlet-name>
+  <url-pattern>/NewUserData</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>NewUser</servlet-name>
+  <url-pattern>/NewUser</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>CheckLoginData</servlet-name>
+  <url-pattern>/CheckLoginData</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>CheckLogin</servlet-name>
+  <url-pattern>/CheckLogin</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>LogIn</servlet-name>
+  <url-pattern>/LogIn</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>SignUp</servlet-name>
+  <url-pattern>/SignUp</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>UniCafeServlet</servlet-name>
+  <url-pattern>/UniCafeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Pedido</servlet-name>
+  <url-pattern>/Pedido</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>PlatoServlet</servlet-name>
+  <url-pattern>/PlatoServlet</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Plato</servlet-name>
+  <url-pattern>/Plato</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Pago</servlet-name>
+  <url-pattern>/Pago</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>BonoServlet</servlet-name>
+  <url-pattern>/BonoServlet</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>fin</servlet-name>
+  <url-pattern>/fin</url-pattern>
+</servlet-mapping>
+
+</web-app>
