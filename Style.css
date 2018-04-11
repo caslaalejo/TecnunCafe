@@ -229,6 +229,7 @@ div.main {
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    colour: white;
 }
 .container {
     border-radius: 5px;
